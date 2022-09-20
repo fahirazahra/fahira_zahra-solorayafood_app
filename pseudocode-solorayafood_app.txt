@@ -1,0 +1,13 @@
+click jenis_makanan, jenis_minuman;
+choose toko, restoran;
+click menu_makanan, menu_minuman;
+choose alamat_pengiriman; //sudah memasuki halaman pembayaran
+
+    if alamat_pengiriman < 5000 //(meter) jarak kurang dari 5km
+        harga_promo;
+    else
+        harga_normal;
+
+click metode_pembayaran;
+click pesan;
+print invoice;
